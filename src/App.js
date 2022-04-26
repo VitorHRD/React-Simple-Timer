@@ -30,9 +30,9 @@ function App() {
          setHours(state => state - 1)
       }
       else if(hours === 0){
-        setHours(23)
-        setMinutes(59)
-        setSeconds(59)
+        setHours(24)
+        setMinutes(0)
+        setSeconds(0)
       }
     }, 1000)
 
