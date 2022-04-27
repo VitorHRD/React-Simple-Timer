@@ -8,7 +8,7 @@ function App() {
   const [minutes, setMinutes] = useState(null)
   const [seconds, setSeconds] = useState(null)
   useEffect(()=>{
-    setHours(0)
+    setHours(24)
     setMinutes(0)
     setSeconds(0)
   },[])
